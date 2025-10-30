@@ -1,5 +1,5 @@
 # Use an official Node image that supports apt-get
-FROM node:18-bullseye
+FROM node:20-bullseye
 
 # Install required system packages (GDAL, gzip, curl)
 RUN apt-get update && apt-get install -y \
