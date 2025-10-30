@@ -1,0 +1,8 @@
+[build]
+nixpacks = { plan = "nodejs" }
+
+[variables]
+PORT = "8080"
+
+[phases.setup]
+aptPkgs = ["gdal-bin", "gzip", "curl"]
